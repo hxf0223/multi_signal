@@ -1,0 +1,10 @@
+cmake_minimum_required(VERSION 3.5)
+project(multiSignal C CXX)
+
+set(CMAKE_VERBOSE_MAKEFILE ON)
+set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
+set(CMAKE_CXX_STANDARD 11)
+
+SET(EXECUTABLE_OUTPUT_PATH "${PROJECT_SOURCE_DIR}/bin")
+
+add_subdirectory("${PROJECT_SOURCE_DIR}/src")
